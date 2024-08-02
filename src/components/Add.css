@@ -1,0 +1,20 @@
+/* Add.css */
+.input-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-icon .form-control {
+    padding-right: 40px; /* Adjust this padding as needed */
+  }
+  
+  .input-icon .input-icon-symbol {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; /* Prevent the icon from being interactive */
+    color: #6c757d; /* Optional: color for the icon */
+  }
+  

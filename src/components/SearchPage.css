@@ -1,0 +1,20 @@
+/* SearchPage.css */
+.search-bar {
+    text-align: center;
+    transition: all 0.5s ease;
+  }
+  
+  .search-bar-active {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    z-index: 1000;
+  }
+  
+  .search-bar-active .form-control {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
