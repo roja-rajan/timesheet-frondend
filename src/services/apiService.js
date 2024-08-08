@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Instance of Axios with default configurations
 const apiClient = axios.create({
-  baseURL: "https://3bdb-2403-a080-c04-4ed4-64bf-3316-f3c7-9cba.ngrok-free.app",
+  baseURL: "https://8472-2403-a080-c04-576-984c-90d6-ef93-2520.ngrok-free.app",
   headers: {
     "Content-Type": "application/json",
     "ngrok-skip-browser-warning": "true" // Set the header
